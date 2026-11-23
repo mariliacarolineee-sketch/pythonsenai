@@ -6,14 +6,14 @@ SENHA = "12345"
 
 def valida_usuario(user):
     while True:
-        usuario = mod_inputs.recebe_str("Digite o seu usuario: ")
+        usuario = mod_inputs.recebe_str("Digite o seu usuário: ")
         if len(usuario) >= 5:
             if user == usuario:
-               break
+                break
             else:
-                print("usuario incorreto!\n")
+                print("Usuário incorreto!\n")
         else:
-            print("O usuario deve conter ao menos 5 caracteres!")
+            print("O usuário deve conter ao menos 5 caracteres!")
     return usuario
 
 def valida_senha(senha1):
@@ -22,17 +22,13 @@ def valida_senha(senha1):
         if senha == senha1:
             break
         else:
-            print("Senha Invalida!\n")
+            print("Senha inválida!\n")
     return senha
-
 
 def main():
     mod_msg.msg_login_ini()
     usuario_validado = valida_usuario(USUARIO)
-    senha_validada = valida_senha (SENHA)
-
-    print("Sucesso! o usuario é: ", usuario_validado)
-    print("A Senha é:", senha_validada)
-
+    senha_validada = valida_senha(SENHA)
+    menu_principal.main()
    
 
