@@ -1,19 +1,20 @@
 import mod_msg
 import mod_inputs
+import menu_principal
 
 USUARIO = "marilia"
 SENHA = "12345"
 
 def valida_usuario(user):
     while True:
-        usuario = mod_inputs.recebe_str("Digite o seu usuário: ")
+        usuario = mod_inputs.recebe_str("Digite o seu usuario: ")
         if len(usuario) >= 5:
             if user == usuario:
                 break
             else:
-                print("Usuário incorreto!\n")
+                print("Usuario incorreto!\n")
         else:
-            print("O usuário deve conter ao menos 5 caracteres!")
+            print("O usuario deve conter ao menos 5 caracteres!")
     return usuario
 
 def valida_senha(senha1):
@@ -30,5 +31,5 @@ def main():
     usuario_validado = valida_usuario(USUARIO)
     senha_validada = valida_senha(SENHA)
     menu_principal.main()
-   
+
 

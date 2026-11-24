@@ -4,5 +4,3 @@ import login
 
 mod_msg.msg_inicial()
 login.main()
-
-
