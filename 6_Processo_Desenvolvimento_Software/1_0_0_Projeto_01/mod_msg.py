@@ -22,18 +22,16 @@ def msg_calc_ini():
     print("##############################\n")
 
 
-
-def msg_final_programa():
-    print("#############################################################################")
-    print("<<<<<<<<<<<<Obrigada por utilizar o programa cota-frete>>>>>>>>>>>>>>>>>>>>>>")
-    print("######################################### Volte Sempre!!!!!################\n")
-
-
 def msg_valida_aeroporto():
-    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Escolha o Destinho~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
+    print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Escolha o Destino~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("0 - Sair")
     print("1 - Congonhas/SP") 
     print("2 -Guarulhos/SP")
     print("3 -Campo de Marte/SP")  
     print("4 -Pinto Martins/CE")
     print("5 -Eduardo Gomes/AM ") 
+
+def msg_final_programa():
+    print("#############################################################################")
+    print("<<<<<<<<<<<<Obrigada por utilizar o programa cota-frete>>>>>>>>>>>>>>>>>>>>>>")
+    print("######################################### Volte Sempre!!!!!################\n")
