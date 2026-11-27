@@ -26,10 +26,10 @@ def msg_valida_aeroporto():
     print("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Escolha o Destino~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~")
     print("0 - Sair")
     print("1 - Congonhas/SP") 
-    print("2 -Guarulhos/SP")
-    print("3 -Campo de Marte/SP")  
-    print("4 -Pinto Martins/CE")
-    print("5 -Eduardo Gomes/AM ") 
+    print("2 - Guarulhos/SP")
+    print("3 - Campo de Marte/SP")  
+    print("4 - Pinto Martins/CE")
+    print("5 - Eduardo Gomes/AM ") 
 
 def msg_final_programa():
     print("#############################################################################")

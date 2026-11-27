@@ -81,7 +81,7 @@ def main():
         print(f"\nAeroporto de destino: {aeroporto}")
         print(f"Distância: {distancia} km")
         print(f"Custo total do frete: R$ {valor_frete:,.2f}\n")
-
+        break
 
 if __name__ == "__main__":
     main()
